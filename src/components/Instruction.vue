@@ -1,6 +1,6 @@
 <template>
   <div class="instruction">
-    <p>You can draw any number of shapes using the text input below. You can draw circles, rectangles and polygons.</p>
+    <p>SVG app enables drawing any number of shapes using the text input below. Please use this to draw circles, rectangles, polygons and ellipses.</p>
     <p>Enter each shape in a new line starting with c for circle, r for rectangle and p for polygons and e for ellipse. Sample input for each of these:</p>
     <div class="sample">
       <p class="input">
