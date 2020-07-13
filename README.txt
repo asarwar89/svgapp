@@ -1,5 +1,8 @@
 # svg-app
 
+* Tested on Google Chrome
+* Includes one extra shape; Ellipse, try with 'e 120 200 60 30'
+
 ## Project setup
 ```
 npm install
@@ -20,5 +23,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
