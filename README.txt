@@ -1,7 +1,8 @@
 # svg-app
 
+* Build using VueJS
 * Tested on Google Chrome
-* Includes one extra shape; Ellipse, try with 'e 120 200 60 30'
+* Includes one extra shape; Ellipse, please try with 'e 120 200 60 30'
 
 ## Project setup
 ```
