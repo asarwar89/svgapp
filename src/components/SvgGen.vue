@@ -45,13 +45,8 @@ export default {
 
       let { errors, shapes } = processInput(inputArray);
 
-      if (errors.count === 0) {
-        this.items = shapes;
-        this.errors = [];
-      } else {
-        this.items = [];
-        this.errors = errors.str;
-      }
+      this.items = shapes;
+      this.errors = errors.str;
 
     },
     cleanString(theString){

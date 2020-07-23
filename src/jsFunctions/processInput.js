@@ -3,7 +3,6 @@ import shapesObj from './shapesObj';
 const processInput = (inputArray) => {
 
   let errors = {
-    count: 0,
     str: []
   };
   let shapes = [];
@@ -18,11 +17,9 @@ const processInput = (inputArray) => {
         shapes.push(shape);
       } else {
         errors.str.push(`Line ${index + 1}: Invalid input. ${error} Entered value "${element}".`);
-        errors.count++;
       }
     } else {
       errors.str.push(`Line ${index + 1}: Invalid input. Please provide a valid shape like 'c 100 100 50' for a circle.`);
-      errors.count++;
     }
   });
 
